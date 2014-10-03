@@ -35,5 +35,34 @@ public class Employee {
         }
     }
     
+    public boolean setType(int tp){
+        boolean oneortwo = (tp==1 || tp==2);
+        if(oneortwo){
+            type=tp;
+            return true;
+           }
+        else return false;
+        }
+    public boolean setHours(int hrs){
+        boolean hoursok = (hrs>=1 && hrs<=60);
+        if(hoursok){
+            hours=hrs;
+            return true;
+            }
+        else return false;
+    }
     
+    public String getName(){
+        return name;
+    }
+    
+    public double getPay(){
+        double pay;
+        boolean noovertime= (hours<=40 || type==2);
+        if(noovertime)
+            pay=rate*hours;
+        else
+            pay=(hours-40)*(rate*2)+rate*40;
+        return pay;
+    }
 }
