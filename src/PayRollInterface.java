@@ -22,7 +22,7 @@ while(true){
 
 while(true){ //Type the name in and break if blank
 
-	prompt = "Type"+ (empl.getTypeRules());
+	prompt = "Type (" + empl.getTypeRules()+ "): ";
 	type= kr.readInt(prompt);
 	if(empl.setType(type)) break;
 	
@@ -30,16 +30,16 @@ while(true){ //Type the name in and break if blank
 
 while(true){ //Get the type until it is valid
 
-	prompt = "Hourly rate"+ (empl.getRateRules());
-	type= kr.readDouble(prompt);
+	prompt = "Hourly Rate (" + empl.getRateRules()+ "): ";
+	rate = kr.readDouble(prompt);
 	if(empl.setRate(rate)) break; 
 
 }
 
 while(true){
 
-	prompt= ("Hours"+ (empl.getHourRules());
-	type= kr.readInt(prompt);
+	prompt = "Hours (" + empl.getHoursRules()+ "): ";
+	hours = kr.readInt(prompt);
 	if(empl.setHours(hours)) break;
 }
 

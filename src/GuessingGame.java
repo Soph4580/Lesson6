@@ -47,7 +47,7 @@ public class GuessingGame extends javax.swing.JFrame {
             }
         });
 
-        lblResult.setBackground(new java.awt.Color(105, 105, 0));
+        lblResult.setBackground(new java.awt.Color(105, 105, 105));
         lblResult.setForeground(new java.awt.Color(255, 255, 0));
         lblResult.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 

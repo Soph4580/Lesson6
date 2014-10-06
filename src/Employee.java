@@ -52,6 +52,15 @@ public class Employee {
         else return false;
     }
     
+    public boolean setRate(double r){
+        boolean rateok = (r>=6 && r<=30);
+        if(rateok){
+            rate=r;
+            return true;
+            }
+        else return false;
+    }
+    
     public String getName(){
         return name;
     }
