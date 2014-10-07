@@ -1,21 +1,19 @@
 public class Book{
-
-	private String Title, Author;
+    
+    private String Title, Author;
 	
 public Book (String t, String a){
-
-	Title=t;
+        Title=t;
 	Author=a;
 	}
 
-public String getTitle();{
+public String getTitle(){
 	return Title;
         
 	}
 
 public String toString(){
-
-	String info = "Title: " + Title +"\n Author:"+ Author;
+        String info = "Title: " + Title +"\n Author:"+ Author;
 	return info;
 	}
 }
