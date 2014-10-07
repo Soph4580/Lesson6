@@ -104,7 +104,7 @@ public class GuessingGame extends javax.swing.JFrame {
        else
            lblResult.setText("Invalid Guess");
            if (machine.giveHint().equals("You've got it!"));
-           btnSubmit.enabled = false;
+           btnSubmit.Enabled (false);
     }//GEN-LAST:event_btnSubmitActionPerformed
 
    
