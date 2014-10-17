@@ -17,8 +17,8 @@ KeyboardReader kr = new KeyboardReader();
 while(true){
     System.out.println ("Enter employee data");
     name = kr.readLine(" Name (or <enter> to quit):" );
-    if(! empl.setName(name)) break;
-}        
+    if(!(empl.setName(name))) break;
+        
 
 while(true){ //Type the name in and break if blank
 
@@ -46,7 +46,7 @@ while(true){
 System.out.println("The weekly pay for ");
 System.out.println(empl.getName());
 System.out.println(" is $" + empl.getPay());
-
+}
 }
 
 }

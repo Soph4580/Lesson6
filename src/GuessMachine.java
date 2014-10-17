@@ -11,5 +11,17 @@ public class GuessMachine {
     
     //To do: Add methods
     //giveHint(), setGuess(), getNumGuesses()
+
+    boolean setGuess(int guess) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    Object giveHint() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    String getNumGuesses() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
